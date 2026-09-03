@@ -2,85 +2,105 @@
 
 A collection of **fundamental Data Structures and Algorithms implemented in Python 3**.
 
-This repository focuses on understanding **core algorithms, their logic, implementation, and time/space complexity**.
+This repository focuses on building a strong foundation in **Data Structures and Algorithms**, understanding how algorithms work, their implementation, and their time and space complexity.
 
-> **Note:** This repository contains algorithm implementations only. LeetCode and coding-problem solutions are maintained separately.
+> **Note:** This repository contains base-building algorithm implementations only. LeetCode and coding-problem solutions are maintained separately.
 
 ---
 
 ## 📚 Algorithms
 
-### 1. Complexity Analysis
+### 1. Complexity
 
 * Big-O Notation
 * Time Complexity
 * Space Complexity
-* Best, Average & Worst Case
+* Best Case
+* Average Case
+* Worst Case
+* Amortized Analysis Basics
 
-### 2. Searching Algorithms
+---
+
+### 2. Arrays
+
+* Array Traversal
+* Array Insertion
+* Array Deletion
+* Finding Maximum / Minimum
+* Array Reversal
+* Prefix Sum
+* Difference Array
+* Kadane's Algorithm
+* Two Pointers
+* Sliding Window
+* Frequency Counting
+
+---
+
+### 3. Strings
+
+* String Traversal
+* String Reversal
+* Palindrome
+* Character Frequency
+* Anagram
+* Two Pointers
+* Sliding Window
+
+---
+
+### 4. Searching
 
 * Linear Search
 * Binary Search
-* Jump Search
-* Interpolation Search
+* Binary Search on Answer
 
-### 3. Sorting Algorithms
+---
+
+### 5. Sorting
 
 * Bubble Sort
 * Selection Sort
 * Insertion Sort
 * Merge Sort
 * Quick Sort
-* Heap Sort
 * Counting Sort
-* Radix Sort
-* Bucket Sort
+* Heap Sort
 
-### 4. Array Algorithms
+---
 
-* Array Traversal
-* Array Insertion
-* Array Deletion
-* Prefix Sum
-* Difference Array
-* Kadane's Algorithm
-* Two Pointer Technique
-* Sliding Window
-
-### 5. String Algorithms
-
-* String Traversal
-* String Reversal
-* Palindrome Check
-* Character Frequency
-* Anagram Check
-* Two Pointer Technique
-* Sliding Window
-
-### 6. Hashing Algorithms
+### 6. Hashing
 
 * Hash Table Basics
 * Hash Function
 * Hashing
+* HashSet
+* HashMap / Dictionary
+* Frequency Map
 * Hash Collisions
 * Collision Handling
 * Chaining
-* Open Addressing
 * Linear Probing
 * Quadratic Probing
 
-### 7. Linked List Algorithms
+---
 
+### 7. Linked Lists
+
+* Singly Linked List
 * Traversal
 * Insertion
 * Deletion
-* Reversal
+* Reverse Linked List
 * Finding Middle Node
-* Fast & Slow Pointer
+* Fast & Slow Pointers
 * Cycle Detection
-* Merging Linked Lists
+* Merge Two Sorted Lists
 
-### 8. Stack Algorithms
+---
+
+### 8. Stack
 
 * Stack Implementation
 * Push
@@ -88,38 +108,47 @@ This repository focuses on understanding **core algorithms, their logic, impleme
 * Peek
 * Stack using Array
 * Stack using Linked List
+* Min Stack
 * Monotonic Stack
-* Expression Evaluation
-* Infix / Prefix / Postfix
+* Next Greater Element
+* Infix / Prefix / Postfix Basics
 
-### 9. Queue Algorithms
+---
+
+### 9. Queue
 
 * Queue Implementation
 * Enqueue
 * Dequeue
-* Circular Queue
 * Queue using Array
 * Queue using Linked List
-* Priority Queue
+* Circular Queue
 * Deque
+* Priority Queue
+* BFS Basics
 
-### 10. Recursion Algorithms
+---
 
-* Basic Recursion
+### 10. Recursion
+
+* Base Case
+* Recursive Case
 * Factorial
 * Fibonacci
 * Sum of Numbers
 * Power Calculation
-* Recursive Searching
-* Recursive Sorting
-* Recursion with Arrays
-* Recursion with Strings
+* Recursive Array Traversal
+* Recursive String Traversal
+* Tree Recursion
+* Backtracking Basics
 
-### 11. Tree Algorithms
+---
+
+### 11. Trees
 
 * Binary Tree
 * Binary Search Tree
-* Tree Traversals
+* Tree Traversal
 
   * Preorder
   * Inorder
@@ -129,71 +158,79 @@ This repository focuses on understanding **core algorithms, their logic, impleme
 * Tree Depth
 * BST Search
 * BST Insertion
-* BST Deletion
 
-### 12. Heap Algorithms
+---
+
+### 12. Heaps / Priority Queue
 
 * Min Heap
 * Max Heap
 * Heapify
+* Build Heap
 * Heap Sort
 * Priority Queue
-* Build Heap
+* Python `heapq`
 
-### 13. Graph Algorithms
+---
 
-* Graph Representation
+### 13. Graphs
+
+#### Graph Representation
+
 * Adjacency Matrix
 * Adjacency List
+
+#### Graph Traversal
+
 * Breadth-First Search (BFS)
 * Depth-First Search (DFS)
+
+#### Basic Graph Algorithms
+
 * Connected Components
 * Cycle Detection
-* Topological Sort
 
-### 14. Shortest Path Algorithms
+#### Shortest Path
 
 * BFS Shortest Path
 * Dijkstra's Algorithm
-* Bellman-Ford Algorithm
-* Floyd-Warshall Algorithm
 
-### 15. Minimum Spanning Tree
+---
 
-* Prim's Algorithm
-* Kruskal's Algorithm
-* Disjoint Set Union (DSU)
-* Union-Find
+### 14. Greedy
 
-### 16. Greedy Algorithms
-
+* Greedy Strategy
 * Activity Selection
 * Fractional Knapsack
-* Job Sequencing
 * Interval Scheduling
-* Huffman Coding
+* Jump Game
 
-### 17. Backtracking Algorithms
+---
 
-* N-Queens
-* Rat in a Maze
-* Subset Generation
-* Permutation Generation
-* Combination Generation
+### 15. Backtracking
 
-### 18. Dynamic Programming
+* Subsets
+* Permutations
+* Combinations
+* Combination Sum
+* Maze Problems
+
+---
+
+### 16. Dynamic Programming — Basics
 
 * Memoization
 * Tabulation
 * 1D Dynamic Programming
 * 2D Dynamic Programming
 * Fibonacci
-* Knapsack
-* Longest Common Subsequence
-* Longest Increasing Subsequence
-* Matrix Chain Multiplication
+* Climbing Stairs
+* House Robber
+* Knapsack Basics
 
-### 19. Bit Manipulation
+---
+
+### 17. Bit Manipulation
 
 * Bitwise AND
 * Bitwise OR
@@ -201,37 +238,30 @@ This repository focuses on understanding **core algorithms, their logic, impleme
 * Bitwise NOT
 * Left Shift
 * Right Shift
+* Check Odd / Even
 * Set Bit
 * Clear Bit
 * Toggle Bit
-* Check Bit
-
-### 20. Divide and Conquer
-
-* Binary Search
-* Merge Sort
-* Quick Sort
-* Maximum Subarray
-* Fast Exponentiation
+* XOR Basics
 
 ---
 
-## 📈 Complexity Reference
+## 🧠 Important Problem-Solving Patterns
 
-| Algorithm      | Time Complexity    |
-| -------------- | ------------------ |
-| Linear Search  | O(n)               |
-| Binary Search  | O(log n)           |
-| Bubble Sort    | O(n²)              |
-| Selection Sort | O(n²)              |
-| Insertion Sort | O(n²)              |
-| Merge Sort     | O(n log n)         |
-| Quick Sort     | O(n log n) average |
-| Heap Sort      | O(n log n)         |
-| Counting Sort  | O(n + k)           |
-| BFS            | O(V + E)           |
-| DFS            | O(V + E)           |
-| Dijkstra       | O((V + E) log V)   |
+These are fundamental patterns that repeatedly appear across different algorithms and data structures.
+
+* Two Pointers
+* Sliding Window
+* Fast & Slow Pointers
+* Prefix Sum
+* Difference Array
+* Frequency Counting
+* Monotonic Stack
+* Binary Search
+* BFS / DFS
+* Backtracking
+* Greedy
+* Dynamic Programming
 
 ---
 
@@ -240,26 +270,233 @@ This repository focuses on understanding **core algorithms, their logic, impleme
 ```text
 algorithms/
 │
-├── complexity/
-├── searching/
-├── sorting/
-├── arrays/
-├── strings/
-├── hashing/
-├── linked_lists/
-├── stacks/
-├── queues/
-├── recursion/
-├── trees/
-├── heaps/
-├── graphs/
-├── shortest_path/
-├── minimum_spanning_tree/
-├── greedy/
-├── backtracking/
-├── dynamic_programming/
-├── bit_manipulation/
-└── divide_and_conquer/
+├── 01_complexity/
+│   ├── big_o.py
+│   ├── time_complexity.py
+│   ├── space_complexity.py
+│   └── amortized_analysis.py
+│
+├── 02_arrays/
+│   ├── traversal.py
+│   ├── insertion.py
+│   ├── deletion.py
+│   ├── find_max_min.py
+│   ├── reverse_array.py
+│   ├── prefix_sum.py
+│   ├── difference_array.py
+│   ├── kadanes_algorithm.py
+│   ├── two_pointers.py
+│   ├── sliding_window.py
+│   └── frequency_counting.py
+│
+├── 03_strings/
+│   ├── traversal.py
+│   ├── reverse_string.py
+│   ├── palindrome.py
+│   ├── character_frequency.py
+│   ├── anagram.py
+│   ├── two_pointers.py
+│   └── sliding_window.py
+│
+├── 04_searching/
+│   ├── linear_search.py
+│   ├── binary_search.py
+│   └── binary_search_on_answer.py
+│
+├── 05_sorting/
+│   ├── bubble_sort.py
+│   ├── selection_sort.py
+│   ├── insertion_sort.py
+│   ├── merge_sort.py
+│   ├── quick_sort.py
+│   ├── counting_sort.py
+│   └── heap_sort.py
+│
+├── 06_hashing/
+│   ├── hash_table.py
+│   ├── hash_function.py
+│   ├── hash_collision.py
+│   ├── chaining.py
+│   ├── linear_probing.py
+│   ├── quadratic_probing.py
+│   └── frequency_map.py
+│
+├── 07_linked_lists/
+│   ├── singly_linked_list.py
+│   ├── traversal.py
+│   ├── insertion.py
+│   ├── deletion.py
+│   ├── reverse_linked_list.py
+│   ├── find_middle.py
+│   ├── fast_slow_pointer.py
+│   ├── detect_cycle.py
+│   └── merge_sorted_lists.py
+│
+├── 08_stacks/
+│   ├── stack.py
+│   ├── stack_using_array.py
+│   ├── stack_using_linked_list.py
+│   ├── push_pop_peek.py
+│   ├── min_stack.py
+│   ├── monotonic_stack.py
+│   └── next_greater_element.py
+│
+├── 09_queues/
+│   ├── queue.py
+│   ├── queue_using_array.py
+│   ├── queue_using_linked_list.py
+│   ├── circular_queue.py
+│   ├── deque.py
+│   └── priority_queue.py
+│
+├── 10_recursion/
+│   ├── basic_recursion.py
+│   ├── factorial.py
+│   ├── fibonacci.py
+│   ├── sum_of_numbers.py
+│   ├── power.py
+│   ├── recursive_array.py
+│   └── recursive_string.py
+│
+├── 11_trees/
+│   ├── binary_tree.py
+│   ├── binary_search_tree.py
+│   ├── preorder.py
+│   ├── inorder.py
+│   ├── postorder.py
+│   ├── level_order.py
+│   ├── tree_height.py
+│   ├── tree_depth.py
+│   ├── bst_search.py
+│   └── bst_insertion.py
+│
+├── 12_heaps/
+│   ├── min_heap.py
+│   ├── max_heap.py
+│   ├── heapify.py
+│   ├── build_heap.py
+│   ├── heap_sort.py
+│   └── priority_queue.py
+│
+├── 13_graphs/
+│   ├── graph_representation.py
+│   ├── adjacency_matrix.py
+│   ├── adjacency_list.py
+│   ├── bfs.py
+│   ├── dfs.py
+│   ├── connected_components.py
+│   ├── cycle_detection.py
+│   │
+│   └── shortest_path/
+│       ├── bfs_shortest_path.py
+│       └── dijkstra.py
+│
+├── 14_greedy/
+│   ├── activity_selection.py
+│   ├── fractional_knapsack.py
+│   ├── interval_scheduling.py
+│   └── jump_game.py
+│
+├── 15_backtracking/
+│   ├── subsets.py
+│   ├── permutations.py
+│   ├── combinations.py
+│   ├── combination_sum.py
+│   └── maze.py
+│
+├── 16_dynamic_programming/
+│   ├── memoization.py
+│   ├── tabulation.py
+│   ├── fibonacci.py
+│   ├── climbing_stairs.py
+│   ├── house_robber.py
+│   └── knapsack.py
+│
+├── 17_bit_manipulation/
+│   ├── bitwise_operations.py
+│   ├── check_odd_even.py
+│   ├── set_bit.py
+│   ├── clear_bit.py
+│   ├── toggle_bit.py
+│   └── xor_basics.py
+│
+└── 18_patterns/
+    ├── two_pointers.py
+    ├── sliding_window.py
+    ├── fast_slow_pointer.py
+    ├── prefix_sum.py
+    ├── difference_array.py
+    ├── monotonic_stack.py
+    ├── binary_search.py
+    ├── bfs_dfs.py
+    ├── backtracking.py
+    ├── greedy.py
+    └── dynamic_programming.py
+```
+
+---
+
+## 📈 Complexity Reference
+
+| Algorithm      |    Time Complexity | Space Complexity |
+| -------------- | -----------------: | ---------------: |
+| Linear Search  |               O(n) |             O(1) |
+| Binary Search  |           O(log n) |             O(1) |
+| Bubble Sort    |              O(n²) |             O(1) |
+| Selection Sort |              O(n²) |             O(1) |
+| Insertion Sort |              O(n²) |             O(1) |
+| Merge Sort     |         O(n log n) |             O(n) |
+| Quick Sort     | O(n log n) Average | O(log n) Average |
+| Heap Sort      |         O(n log n) |             O(1) |
+| Counting Sort  |           O(n + k) |         O(n + k) |
+| BFS            |           O(V + E) |             O(V) |
+| DFS            |           O(V + E) |             O(V) |
+| Dijkstra       |   O((V + E) log V) |             O(V) |
+
+---
+
+## 📖 Recommended Learning Order
+
+Build the foundation progressively:
+
+```text
+Complexity
+    ↓
+Arrays
+    ↓
+Strings
+    ↓
+Searching
+    ↓
+Sorting
+    ↓
+Hashing
+    ↓
+Linked Lists
+    ↓
+Stack
+    ↓
+Queue
+    ↓
+Recursion
+    ↓
+Trees
+    ↓
+Heap
+    ↓
+Graphs
+    ↓
+Dijkstra
+    ↓
+Greedy
+    ↓
+Backtracking
+    ↓
+Dynamic Programming
+    ↓
+Bit Manipulation
+    ↓
+Problem-Solving Patterns
 ```
 
 ---
@@ -272,14 +509,19 @@ algorithms/
 
 ## 🎯 Purpose
 
-This repository is focused on learning and implementing **fundamental algorithms from scratch**.
+The purpose of this repository is to build a strong foundation in **Data Structures and Algorithms** through implementation and understanding.
 
-Each implementation is intended to demonstrate:
+Each implementation focuses on:
 
-* How the algorithm works
-* How to implement it in Python
-* Time complexity
-* Space complexity
-* Core idea behind the algorithm
+* Understanding the algorithm
+* Implementing it from scratch
+* Understanding the underlying logic
+* Analyzing time complexity
+* Analyzing space complexity
+* Learning reusable algorithmic patterns
 
-**LeetCode solutions and interview questions are maintained in a separate repository.**
+### Separate Repository
+
+**LeetCode problems, coding questions, and interview problem solutions are maintained separately.**
+
+This repository is dedicated to **learning the algorithms themselves**.
