@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e72a0589-437e-4b73-ba1c-dcf43c9d2e48" name="Changes" comment="Selection_Sort.py" />
+    <list default="true" id="e72a0589-437e-4b73-ba1c-dcf43c9d2e48" name="Changes" comment="Selection_Sort.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SERACHING/Binary_Search(i.e. sorted).py" beforeDir="false" afterPath="$PROJECT_DIR$/SERACHING/Binary_Search(i.e. sorted).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SORTING/Selection_Sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/SORTING/Selection_Sort.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AXON-09"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AXON-09&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AXON-09/ALGORITHMS.git",
-    "accountId": "4b359421-21f9-4551-a855-ad53ed3038d6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AXON-09/ALGORITHMS.git&quot;,
+    &quot;accountId&quot;: &quot;4b359421-21f9-4551-a855-ad53ed3038d6&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3IpSFqtPACoash3veUxcPIAKscM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Binary_Search(i.e. sorted).executor": "Run",
     "Python.Linear_Search.executor": "Run",
     "Python.Selection_Sort.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -93,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788461252397</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Selection_Sort.py">
+      <option name="closed" value="true" />
+      <created>1788461684860</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1788461684860</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
