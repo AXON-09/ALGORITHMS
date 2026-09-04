@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e72a0589-437e-4b73-ba1c-dcf43c9d2e48" name="Changes" comment="Selection_Sort.py">
-      <change beforePath="$PROJECT_DIR$/SORTING/Bubble_Sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/SORTING/Bubble_Sort.py" afterDir="false" />
+    <list default="true" id="e72a0589-437e-4b73-ba1c-dcf43c9d2e48" name="Changes" comment="bubble sort">
+      <change afterPath="$PROJECT_DIR$/SORTING/Insertion_Sort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788545505149</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bubble sort">
+      <option name="closed" value="true" />
+      <created>1788546256732</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1788546256732</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Selection_Sort.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selection_Sort.py" />
+    <MESSAGE value="bubble sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="bubble sort" />
   </component>
 </project>
