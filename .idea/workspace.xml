@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e72a0589-437e-4b73-ba1c-dcf43c9d2e48" name="Changes" comment="Selection_Sort.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SERACHING/Binary_Search(i.e. sorted).py" beforeDir="false" afterPath="$PROJECT_DIR$/SERACHING/Binary_Search(i.e. sorted).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SORTING/Selection_Sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/SORTING/Selection_Sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SORTING/Bubble_Sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/SORTING/Bubble_Sort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Binary_Search(i.e. sorted).executor": "Run",
+    "Python.Bubble_Sort.executor": "Run",
     "Python.Linear_Search.executor": "Run",
     "Python.Selection_Sort.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -106,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788461684860</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Selection_Sort.py">
+      <option name="closed" value="true" />
+      <created>1788545505149</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1788545505149</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
