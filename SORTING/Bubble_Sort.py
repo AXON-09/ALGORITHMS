@@ -37,7 +37,7 @@ def merge_sort(arr):
         j += 1
         k += 1
 
-# Example usage:
+
 if __name__ == "__main__":
     data = [38, 27, 43, 3, 9, 82, 10]
     print(f"Original array: {data}")
