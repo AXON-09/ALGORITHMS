@@ -1,20 +1,20 @@
 def Insertion_Sort(arr):
     n = len(arr)
 
-    # Start from second element
-    for j in range(1, n):
-        temp = arr[j]  # Store current element
+    for i in range(1, n):
+        temp = arr[i]
+        j = i - 1
 
-        # Compare with elements on the left
-        for i in range(j-1, -1, -1):
-            if temp < arr[i]:
-                arr[i+1] = arr[i]  # Shift element right
-                arr[i] = temp       # Insert temp
+        while j >= 0:
+            if arr[j] > temp:
+                arr[j + 1] = arr[j]
             else:
-                arr[i+1] = temp     # Place temp
                 break
+            j -= 1
 
-    return arr  # Return sorted array
+        arr[j + 1] = temp
+
+    return arr
 
 
 arr = [1, 25, 12, 22, 11]
