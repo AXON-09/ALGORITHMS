@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e72a0589-437e-4b73-ba1c-dcf43c9d2e48" name="Changes" comment="bianry search">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SORTING/Insertion_Sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/SORTING/Insertion_Sort.py" afterDir="false" />
+    <list default="true" id="e72a0589-437e-4b73-ba1c-dcf43c9d2e48" name="Changes" comment="Merge sort">
+      <change beforePath="$PROJECT_DIR$/SORTING/Bubble_Sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/SORTING/Bubble_Sort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Binary_Search(i.e. sorted).executor": "Run",
-    "Python.Bubble_Sort.executor": "Run",
-    "Python.Insertion_Sort.executor": "Run",
-    "Python.Linear_Search.executor": "Run",
-    "Python.Selection_Sort.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Binary_Search(i.e. sorted).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Bubble_Sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Insertion_Sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Linear_Search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Selection_Sort.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -131,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788546935817</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge sort">
+      <option name="closed" value="true" />
+      <created>1788978375742</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1788978375742</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +156,7 @@
     <MESSAGE value="Selection_Sort.py" />
     <MESSAGE value="bubble sort" />
     <MESSAGE value="bianry search" />
-    <option name="LAST_COMMIT_MESSAGE" value="bianry search" />
+    <MESSAGE value="Merge sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge sort" />
   </component>
 </project>
